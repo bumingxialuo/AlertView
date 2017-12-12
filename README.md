@@ -26,10 +26,10 @@ contain diffrent cell to display something you want to show <br>
     textFeild. You can type a lot of text.And it restricted input range  </br>
     2.5、AlertIMGAndTFTableViewCell <br>
     imageView,label. list some imformation </br>
-——————————————————————————————————————————————————————————
+————————————————————————————————————————————————————————
 ##### footView <br>
   Fixed height is 45 <br>
-  ————————————————————————————————————————————————————————
+————————————————————————————————————————————————————————
 ### How to show diffrent cell
 It's coming in AlertListModel , and handle it
 ```oc
@@ -181,9 +181,9 @@ You can do something in block.But only AlertIMGAndTFTableViewCell can using <br>
 ```
 ### How to use
 You can add the class file in your xcode project. <br>
-<font color=red>Tip: must pod install CategoryGroup and Masonry.</font>
+<font color=red>Tip: must pod install CategoryGroup and Masonry.</font> <br>
 ![Image text](https://github.com/bumingxialuo/AlertView/blob/master/alertViewUsing.gif)
-
+You can use it this way when you need it. <br>
 ```oc
 - (void)createData {
     _arr1 = @[@{@"title":@"费用1",@"value":@"200.00元"},@{@"title":@"费用2",@"value":@"220.00元"}];
