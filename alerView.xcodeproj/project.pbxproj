@@ -16,6 +16,15 @@
 		169EA4481FC3C52600BAC551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 169EA4471FC3C52600BAC551 /* main.m */; };
 		169EA4521FC3C52600BAC551 /* alerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169EA4511FC3C52600BAC551 /* alerViewTests.m */; };
 		169EA45D1FC3C52600BAC551 /* alerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169EA45C1FC3C52600BAC551 /* alerViewUITests.m */; };
+		16BE3BA31FC5129900C8256E /* RDListAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BE3BA21FC5129900C8256E /* RDListAlertView.m */; };
+		16BEBB6D1FC7F57A003E7D36 /* AlertCreateDataSouce.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BEBB6C1FC7F57A003E7D36 /* AlertCreateDataSouce.m */; };
+		16C35AA91FC6D1A300BD8F34 /* AlertModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C35AA81FC6D1A300BD8F34 /* AlertModel.m */; };
+		16D8ADB51FCFB7E4003EF778 /* AlertBodyViewContentTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D8ADAB1FCFB7E3003EF778 /* AlertBodyViewContentTable.m */; };
+		16D8ADB61FCFB7E4003EF778 /* AlertLabelAndTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D8ADAE1FCFB7E3003EF778 /* AlertLabelAndTextFieldTableViewCell.m */; };
+		16D8ADB71FCFB7E4003EF778 /* AlertLabelTFAndBtnTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D8ADB01FCFB7E3003EF778 /* AlertLabelTFAndBtnTableViewCell.m */; };
+		16D8ADB81FCFB7E4003EF778 /* AlertShowcasingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D8ADB21FCFB7E3003EF778 /* AlertShowcasingTableViewCell.m */; };
+		16D8ADB91FCFB7E4003EF778 /* AlertTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D8ADB41FCFB7E3003EF778 /* AlertTextViewTableViewCell.m */; };
+		385CCA638125EAF48C7F5598 /* libPods-alerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF09BB36E1FA1BAA81827A2 /* libPods-alerView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10617FA090C865429D9D2A87 /* Pods-alerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-alerView/Pods-alerView.release.xcconfig"; sourceTree = "<group>"; };
 		169EA4321FC3C52600BAC551 /* alerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		169EA4351FC3C52600BAC551 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		169EA4361FC3C52600BAC551 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +63,24 @@
 		169EA4581FC3C52600BAC551 /* alerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		169EA45C1FC3C52600BAC551 /* alerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alerViewUITests.m; sourceTree = "<group>"; };
 		169EA45E1FC3C52600BAC551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16BE3BA11FC5129900C8256E /* RDListAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDListAlertView.h; sourceTree = "<group>"; };
+		16BE3BA21FC5129900C8256E /* RDListAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDListAlertView.m; sourceTree = "<group>"; };
+		16BEBB6B1FC7F57A003E7D36 /* AlertCreateDataSouce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertCreateDataSouce.h; sourceTree = "<group>"; };
+		16BEBB6C1FC7F57A003E7D36 /* AlertCreateDataSouce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertCreateDataSouce.m; sourceTree = "<group>"; };
+		16C35AA71FC6D1A300BD8F34 /* AlertModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertModel.h; sourceTree = "<group>"; };
+		16C35AA81FC6D1A300BD8F34 /* AlertModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertModel.m; sourceTree = "<group>"; };
+		16D8ADAA1FCFB7E3003EF778 /* AlertBodyViewContentTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertBodyViewContentTable.h; sourceTree = "<group>"; };
+		16D8ADAB1FCFB7E3003EF778 /* AlertBodyViewContentTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertBodyViewContentTable.m; sourceTree = "<group>"; };
+		16D8ADAD1FCFB7E3003EF778 /* AlertLabelAndTextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertLabelAndTextFieldTableViewCell.h; sourceTree = "<group>"; };
+		16D8ADAE1FCFB7E3003EF778 /* AlertLabelAndTextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertLabelAndTextFieldTableViewCell.m; sourceTree = "<group>"; };
+		16D8ADAF1FCFB7E3003EF778 /* AlertLabelTFAndBtnTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertLabelTFAndBtnTableViewCell.h; sourceTree = "<group>"; };
+		16D8ADB01FCFB7E3003EF778 /* AlertLabelTFAndBtnTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertLabelTFAndBtnTableViewCell.m; sourceTree = "<group>"; };
+		16D8ADB11FCFB7E3003EF778 /* AlertShowcasingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertShowcasingTableViewCell.h; sourceTree = "<group>"; };
+		16D8ADB21FCFB7E3003EF778 /* AlertShowcasingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertShowcasingTableViewCell.m; sourceTree = "<group>"; };
+		16D8ADB31FCFB7E3003EF778 /* AlertTextViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTextViewTableViewCell.h; sourceTree = "<group>"; };
+		16D8ADB41FCFB7E3003EF778 /* AlertTextViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTextViewTableViewCell.m; sourceTree = "<group>"; };
+		4DF09BB36E1FA1BAA81827A2 /* libPods-alerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		886962DE2FFE3E79AB5DCD48 /* Pods-alerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alerView/Pods-alerView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385CCA638125EAF48C7F5598 /* libPods-alerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +116,8 @@
 				169EA4501FC3C52600BAC551 /* alerViewTests */,
 				169EA45B1FC3C52600BAC551 /* alerViewUITests */,
 				169EA4331FC3C52600BAC551 /* Products */,
+				1F1C14054B83ED08E5AAD6D1 /* Pods */,
+				8C840EE44D57C8D96957877D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +134,7 @@
 		169EA4341FC3C52600BAC551 /* alerView */ = {
 			isa = PBXGroup;
 			children = (
+				169EA46B1FC3C54D00BAC551 /* Class */,
 				169EA4351FC3C52600BAC551 /* AppDelegate.h */,
 				169EA4361FC3C52600BAC551 /* AppDelegate.m */,
 				169EA4381FC3C52600BAC551 /* ViewController.h */,
@@ -135,6 +167,70 @@
 			path = alerViewUITests;
 			sourceTree = "<group>";
 		};
+		169EA46B1FC3C54D00BAC551 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				16D8ADA91FCFB7E3003EF778 /* AlertBodyTableView */,
+				16C35AA61FC6D17000BD8F34 /* AlertModel */,
+				16BE3BA11FC5129900C8256E /* RDListAlertView.h */,
+				16BE3BA21FC5129900C8256E /* RDListAlertView.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		16C35AA61FC6D17000BD8F34 /* AlertModel */ = {
+			isa = PBXGroup;
+			children = (
+				16C35AA71FC6D1A300BD8F34 /* AlertModel.h */,
+				16C35AA81FC6D1A300BD8F34 /* AlertModel.m */,
+				16BEBB6B1FC7F57A003E7D36 /* AlertCreateDataSouce.h */,
+				16BEBB6C1FC7F57A003E7D36 /* AlertCreateDataSouce.m */,
+			);
+			path = AlertModel;
+			sourceTree = "<group>";
+		};
+		16D8ADA91FCFB7E3003EF778 /* AlertBodyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				16D8ADAA1FCFB7E3003EF778 /* AlertBodyViewContentTable.h */,
+				16D8ADAB1FCFB7E3003EF778 /* AlertBodyViewContentTable.m */,
+				16D8ADAC1FCFB7E3003EF778 /* differentStyleCell */,
+			);
+			path = AlertBodyTableView;
+			sourceTree = "<group>";
+		};
+		16D8ADAC1FCFB7E3003EF778 /* differentStyleCell */ = {
+			isa = PBXGroup;
+			children = (
+				16D8ADAD1FCFB7E3003EF778 /* AlertLabelAndTextFieldTableViewCell.h */,
+				16D8ADAE1FCFB7E3003EF778 /* AlertLabelAndTextFieldTableViewCell.m */,
+				16D8ADAF1FCFB7E3003EF778 /* AlertLabelTFAndBtnTableViewCell.h */,
+				16D8ADB01FCFB7E3003EF778 /* AlertLabelTFAndBtnTableViewCell.m */,
+				16D8ADB11FCFB7E3003EF778 /* AlertShowcasingTableViewCell.h */,
+				16D8ADB21FCFB7E3003EF778 /* AlertShowcasingTableViewCell.m */,
+				16D8ADB31FCFB7E3003EF778 /* AlertTextViewTableViewCell.h */,
+				16D8ADB41FCFB7E3003EF778 /* AlertTextViewTableViewCell.m */,
+			);
+			path = differentStyleCell;
+			sourceTree = "<group>";
+		};
+		1F1C14054B83ED08E5AAD6D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				886962DE2FFE3E79AB5DCD48 /* Pods-alerView.debug.xcconfig */,
+				10617FA090C865429D9D2A87 /* Pods-alerView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C840EE44D57C8D96957877D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF09BB36E1FA1BAA81827A2 /* libPods-alerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 169EA4611FC3C52600BAC551 /* Build configuration list for PBXNativeTarget "alerView" */;
 			buildPhases = (
+				687D40E93348A3AACAF1697B /* [CP] Check Pods Manifest.lock */,
 				169EA42E1FC3C52600BAC551 /* Sources */,
 				169EA42F1FC3C52600BAC551 /* Frameworks */,
 				169EA4301FC3C52600BAC551 /* Resources */,
+				4299E2820CEA84CE9555BBE5 /* [CP] Embed Pods Frameworks */,
+				5AA098EB5EF5709502F71C16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,15 +362,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4299E2820CEA84CE9555BBE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alerView/Pods-alerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AA098EB5EF5709502F71C16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alerView/Pods-alerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		687D40E93348A3AACAF1697B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		169EA42E1FC3C52600BAC551 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D8ADB71FCFB7E4003EF778 /* AlertLabelTFAndBtnTableViewCell.m in Sources */,
+				16BEBB6D1FC7F57A003E7D36 /* AlertCreateDataSouce.m in Sources */,
+				16D8ADB91FCFB7E4003EF778 /* AlertTextViewTableViewCell.m in Sources */,
 				169EA43A1FC3C52600BAC551 /* ViewController.m in Sources */,
+				16D8ADB61FCFB7E4003EF778 /* AlertLabelAndTextFieldTableViewCell.m in Sources */,
+				16D8ADB51FCFB7E4003EF778 /* AlertBodyViewContentTable.m in Sources */,
+				16D8ADB81FCFB7E4003EF778 /* AlertShowcasingTableViewCell.m in Sources */,
 				169EA4401FC3C52600BAC551 /* alerView.xcdatamodeld in Sources */,
 				169EA4481FC3C52600BAC551 /* main.m in Sources */,
 				169EA4371FC3C52600BAC551 /* AppDelegate.m in Sources */,
+				16C35AA91FC6D1A300BD8F34 /* AlertModel.m in Sources */,
+				16BE3BA31FC5129900C8256E /* RDListAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +590,7 @@
 		};
 		169EA4621FC3C52600BAC551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886962DE2FFE3E79AB5DCD48 /* Pods-alerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +605,7 @@
 		};
 		169EA4631FC3C52600BAC551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10617FA090C865429D9D2A87 /* Pods-alerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

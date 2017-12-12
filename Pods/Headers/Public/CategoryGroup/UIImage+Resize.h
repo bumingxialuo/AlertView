@@ -1,0 +1,1 @@
+../../../CategoryGroup/CategoryGroup/Classes/UIImage+Resize.h
