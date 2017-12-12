@@ -11,8 +11,8 @@ Assemble different cells based on your incoming array <br>
 ##### headView 
   Fixed height is 45 <br>
   option：if title's lenth is equel to 0, hidden it<br>
----
-  
+-----
+  
 ##### bodyView
 
 contain diffrent cell to display something you want to show <br>
@@ -26,7 +26,7 @@ contain diffrent cell to display something you want to show <br>
     textFeild. You can type a lot of text.And it restricted input range </br>
     2.5、AlertIMGAndTFTableViewCell <br>
     imageView,label. list some imformation </br>
----
+-----
 ##### footView <br>
   Fixed height is 45 <br>
 ### How to show diffrent cell
