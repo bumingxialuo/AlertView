@@ -1,8 +1,6 @@
 # AlertView
 
-<div align=center>
 ![Image text](https://github.com/bumingxialuo/AlertView/blob/master/alertView.gif)
-</div>
 
 ## OverView
 
