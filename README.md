@@ -17,15 +17,15 @@ Assemble different cells based on your incoming array <br>
 
 contain diffrent cell to display something you want to show <br>
     2.1、AlertShowcasingTableViewCell <br>
-    <p>two label. One of them can be a title,another can be a value </p></br>
+    two label. One of them can be a title,another can be a value </br>
     2.2、AlertLabelAndTextFieldTableViewCell <br>
-    <p>one label and one textFeild. It's a good choice in Login</p></br>
+    one label and one textFeild. It's a good choice in Login</br>
     2.3、AlertLabelTFAndBtnTableViewCell <br>
-    <p>label、textFeild and button. it can receive and enter the verification code</p></br>
+    label、textFeild and button. it can receive and enter the verification code</br>
     2.4、AlertTextViewTableViewCell <br>
-    <p>textFeild. You can type a lot of text.And it restricted input range </p></br>
+    textFeild. You can type a lot of text.And it restricted input range </br>
     2.5、AlertIMGAndTFTableViewCell <br>
-    <p>imageView,label. list some imformation </p></br>
+    imageView,label. list some imformation </br>
 ---
 ##### footView <br>
   Fixed height is 45 <br>
@@ -178,7 +178,7 @@ You can do something in block.But only AlertIMGAndTFTableViewCell can using <br>
  */
 - (NSArray<AlertIMGAndTFModel *> *)createIMGTFArr:(NSArray<NSDictionary *> *)IMGTFArr;
 ```
-### How tu use
+### How to use
 ```oc
 - (void)createData {
     _arr1 = @[@{@"title":@"费用1",@"value":@"200.00元"},@{@"title":@"费用2",@"value":@"220.00元"}];
