@@ -180,6 +180,10 @@ You can do something in block.But only AlertIMGAndTFTableViewCell can using <br>
 - (NSArray<AlertIMGAndTFModel *> *)createIMGTFArr:(NSArray<NSDictionary *> *)IMGTFArr;
 ```
 ### How to use
+You can add the class file in your xcode project. <br>
+<font color=red>Tip: must pod install CategoryGroup and Masonry.</font>
+![Image text](https://github.com/bumingxialuo/AlertView/blob/master/alertViewUsing.gif)
+
 ```oc
 - (void)createData {
     _arr1 = @[@{@"title":@"费用1",@"value":@"200.00元"},@{@"title":@"费用2",@"value":@"220.00元"}];
