@@ -1,15 +1,26 @@
 # AlertView
+
 ![Image text](https://github.com/bumingxialuo/AlertView/blob/master/alertView.gif)
+
 ## OverView
-#### the alertView are three parts
-  ###### 1、headView
+
+#### the alertView include three parts
+
+###### headView 
+
   option：if title's lenth is equel to 0, hidden it<br>
-  ###### 2、bodyView(contain diffrent cell to display something you want to show)
-    2.1、<br>
-    2.2、<br>
-    2.3、<br>
-    2.4、<br>
-  ###### 3、footView
+  
+###### bodyView
+
+contain diffrent cell to display something you want to show <br>
+    2.1、AlertShowcasingTableViewCell <br>
+    two label. One of them can be a title,another can be a value </br>
+    2.2、AlertLabelAndTextFieldTableViewCell <br>
+    one label and one textFeild. It's a good choice in Login</br>
+    2.3、AlertLabelTFAndBtnTableViewCell <br>
+    label、textFeild and button. it can receive and enter the verification code</br>
+    2.4、AlertTextViewTableViewCell <br>
+###### footView <br>
   
 some variable attribute<br>
 ```oc
