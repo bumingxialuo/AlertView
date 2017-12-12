@@ -6,12 +6,12 @@
 
 Assemble different cells based on your incoming array <br>
 
-### The alertView include three parts
+#### The alertView include three parts
 
 ##### headView 
   Fixed height is 45 <br>
-  option：if title's lenth is equel to 0, hidden it<br>
------
+  option：if title's lenth is equel to 0, hidden it <br>
+———————————————
   
 ##### bodyView
 
@@ -19,16 +19,17 @@ contain diffrent cell to display something you want to show <br>
     2.1、AlertShowcasingTableViewCell <br>
     two label. One of them can be a title,another can be a value </br>
     2.2、AlertLabelAndTextFieldTableViewCell <br>
-    one label and one textFeild. It's a good choice in Login</br>
+    one label and one textFeild. It's a good choice in Login </br>
     2.3、AlertLabelTFAndBtnTableViewCell <br>
-    label、textFeild and button. it can receive and enter the verification code</br>
-    2.4、AlertTextViewTableViewCell <br>
-    textFeild. You can type a lot of text.And it restricted input range </br>
+    label、textFeild and button. it can receive and enter the verification code </br>
+    2.4、AlertTextViewTableViewCell  <br>
+    textFeild. You can type a lot of text.And it restricted input range  </br>
     2.5、AlertIMGAndTFTableViewCell <br>
     imageView,label. list some imformation </br>
------
+——————————
 ##### footView <br>
   Fixed height is 45 <br>
+  ———————————
 ### How to show diffrent cell
 It's coming in AlertListModel , and handle it
 ```oc
